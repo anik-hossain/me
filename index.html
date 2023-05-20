@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Anik Hossain</title>
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="./assets/css/bootstrap.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <!-- FontAwesome -->
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <script src="./assets/js/jquery-3.4.1.min.js"></script>
+        <script src="./assets/js/popper.js" crossorigin="anonymous"></script>
+        <script src="./assets/js/bootstrap.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <!-- Header Area -->
+        <header class="o-hidden">
+            <div class="container">
+                <div class="wrapper d-flex align-items-center">
+                    <div class="logo w-25">
+                        <span class="logo-name">Anik</span>
+                    </div>
+                    <div class="main-menu main-nav w-30 ml-auto">
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="#" class="active">Home</a>
+                                </li>
+                                <li><a href="#services">Services</a></li>
+                                <li><a href="#portfolio">Portfolio</a></li>
+                                <li><a href="#about">About</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="mobile-menu main-nav">
+                        <div class="hamburger-menu">
+                            <input id="menu-toggle" type="checkbox" />
+                            <label class="menu-btn" for="menu-toggle">
+                                <span></span>
+                            </label>
+                            <ul class="menu-box">
+                                <li>
+                                    <a href="#" class="menu-item">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#services" class="menu-item"
+                                        >Services</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="#portfolio" class="menu-item"
+                                        >Portfolio</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="#about" class="menu-item">About</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="main-content section-padding o-hidden">
+            <section class="about-area" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 col-lg-3 mx-auto">
+                            <div class="left">
+                                <div class="round-image mx-auto">
+                                    <img
+                                        src="./assets/images/anik.jpg"
+                                        class="img-fluid mr-auto ml-auto"
+                                        alt=""
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-8 offset-lg-1">
+                            <div class="about-text">
+                                <h2 class="name">Anik Hossain</h2>
+                                <h4>Full-stack Web Developer</h4>
+                                <p>
+                                    I am skilled in MERN (MongoDB, Express.js,
+                                    React, Node.js) and Vue, making me a
+                                    versatile web developer. I excel in building
+                                    web applications using the MERN stack,
+                                    leveraging MongoDB for data storage, and
+                                    creating dynamic user interfaces with React.
+                                    Additionally, my proficiency in Vue allows
+                                    me to develop engaging front-end
+                                    experiences. I am capable of delivering
+                                    exceptional web applications.
+                                </p>
+                                <a
+                                    href="./assets/Anik Hossain.pdf"
+                                    class="boxed-btn"
+                                    download=""
+                                    >Download CV</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="services" class="services">
+                <div class="container">
+                    <h3 class="section-title">Services</h3>
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="item">
+                                <div class="icon">
+                                    <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+                                    <svg
+                                        width="3.5rem"
+                                        viewBox="0 -3 19 19"
+                                        version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    >
+                                        <defs></defs>
+                                        <g
+                                            id="Page-1"
+                                            stroke="none"
+                                            stroke-width="1"
+                                            fill="none"
+                                            fill-rule="evenodd"
+                                        >
+                                            <g
+                                                id="Dribbble-Light-Preview"
+                                                transform="translate(-180.000000, -3283.000000)"
+                                                class="fill-color"
+                                            >
+                                                <g
+                                                    id="icons"
+                                                    transform="translate(56.000000, 160.000000)"
+                                                >
+                                                    <path
+                                                        d="M129.204085,3126.419 C129.587463,3126.032 129.587463,3125.405 129.204085,3125.018 L129.191207,3125.005 C128.807829,3124.618 128.186697,3124.618 127.803319,3125.005 L124.287534,3128.553 C123.904155,3128.94 123.904155,3129.568 124.287534,3129.955 L127.803319,3133.503 C128.186697,3133.89 128.807829,3133.89 129.191207,3133.503 L129.204085,3133.49 C129.587463,3133.103 129.587463,3132.476 129.204085,3132.089 L127.090057,3129.955 C126.706679,3129.568 126.706679,3128.94 127.090057,3128.553 L129.204085,3126.419 Z M142.712466,3128.553 L139.196681,3125.005 C138.814294,3124.618 138.192171,3124.618 137.808793,3125.005 L137.795915,3125.018 C137.412537,3125.405 137.412537,3126.032 137.795915,3126.419 L139.910934,3128.553 C140.294312,3128.94 140.294312,3129.568 139.910934,3129.955 L137.795915,3132.089 C137.412537,3132.476 137.412537,3133.103 137.795915,3133.49 L137.808793,3133.503 C138.192171,3133.89 138.814294,3133.89 139.196681,3133.503 L142.712466,3129.955 C143.095845,3129.568 143.095845,3128.94 142.712466,3128.553 L142.712466,3128.553 Z M136.809359,3124.40817 L131.74698,3135.23866 C131.582981,3135.57915 131.295245,3136 130.924037,3136 L130.904396,3136 C130.182602,3136 129.712209,3135.0197 130.031369,3134.3588 L135.064287,3123.63077 C135.228287,3123.29128 135.836165,3123.02511 135.836165,3123.02511 L135.836165,3123 C136.818198,3123 137.127538,3123.74728 136.809359,3124.40817 L136.809359,3124.40817 Z"
+                                                        id="code-[#1115]"
+                                                    ></path>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <h3 class="title">Development</h3>
+                                <p>
+                                    Evolving scripts bring aesthetic appeal and
+                                    valuable user feedback.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="item">
+                                <div class="icon">
+                                    <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+                                    <svg
+                                        class="fill-color"
+                                        width="3.5rem"
+                                        viewBox="0 0 512 512"
+                                        enable-background="new 0 0 512 512"
+                                        id="Innovative_x5F_mind"
+                                        version="1.1"
+                                        xml:space="preserve"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    >
+                                        <g>
+                                            <circle
+                                                cx="251.125"
+                                                cy="49.283"
+                                                r="10.205"
+                                            />
+
+                                            <path
+                                                d="M464.539,156.577c-17.438,0-31.883,14.087-34.199,29.087h-21.779c-3.398,0-6.661,4.127-6.661,7.547v33.453h-42.731   c-9.396-27-28.936-50.196-54.174-63.712c-2.715-1.48-6.22-2.848-9.077-4.086c-12.154-5.283-24.018-8.52-40.018-9.264V93.664h8.569   c3.42,0,4.431-1.367,4.431-4.789V77.02c0-0.338,1.104-0.699,1.508-0.99c9.135-6.459,15.043-16.988,15.043-28.17   c0-9.811-3.988-19.193-11.279-25.74c-7.313-6.549-17.034-9.652-26.846-8.572c-15.973,1.754-29.009,14.646-30.673,30.643   c-1.283,12.465,4.021,24.684,14.237,31.883c0.357,0.248,0.01,0.609,0.01,0.947v11.855c0,3.422,3.915,4.789,7.335,4.789h6.665   v55.943c-48,2.531-87.085,34.057-101.831,77.057h-33.169v-33.453c0-3.42-2.931-7.547-6.351-7.547H81.859   c-2.316-15-16.764-29.087-34.201-29.087c-19.035,0-34.274,15.82-34.274,34.876c0,11.588,3.516,22.57,15.516,28.962v12.396   c0,3.418,2.245,4.852,5.665,4.852h26.213c3.42,0,6.122-1.434,6.122-4.852v-12.396c7-4.951,12.53-13.752,14.442-20.752h14.558   v33.148c0,3.418,4.229,4.852,7.649,4.852h36.045c-1.27,7-2.192,12.366-2.552,18.429l-0.143,0.663v0.201c0,2.209,0,12.92,0,12.92   l-20.268,55.913c-2.004,5.557,2.21,10.874,8.12,10.874h12.289l-0.09,64.488c0,12.537,10.162,23.512,22.697,23.512h42.631h32.299   c3.418,0,6.188,2.082,6.188,5.5c0,3.416-2.77,5.5-6.188,5.5h-32.679v46.695c0,9.301,7.687,16.305,16.985,16.305h104.434   c9.299,0,15.581-7.004,15.581-16.305V363.602c0-16.357,4.986-32.328,12.629-46.793c7.984-15.111,12.996-32.229,13.432-50.406   c0.02-0.912,0.195-1.844,0.195-2.775c0-1.785,0.079-4.237-0.001-5.999c-0.305-6.594-1.133-12.964-2.51-19.964h45.916   c3.42,0,4.339-1.434,4.339-4.852v-33.148h17.958c1.912,7,8.042,15.801,14.042,20.752v12.396c0,3.418,3.103,4.852,6.522,4.852   h26.213c3.42,0,5.265-1.434,5.265-4.852v-12.396c9-6.393,15.717-17.374,15.717-28.962   C498.616,172.397,483.574,156.577,464.539,156.577z M238.833,65.947c-6.66-4.678-10.364-12.352-9.509-20.475   c1.059-10.236,9.248-18.494,19.463-19.641c6.434-0.699,12.576,1.26,17.348,5.51c4.68,4.209,7.379,10.215,7.379,16.518   c0,7.154-3.7,13.926-9.573,18.066c-3.668,2.609-6.041,6.75-6.041,11.094v5.645h-13V77.02   C244.899,72.676,242.476,68.535,238.833,65.947z M68.471,199.398c-1.844,5.086-6.401,9.406-11.397,12.018   c-2.047,1.078-4.174,3.193-4.174,5.488v9.76h-13v-9.76c0-2.295-0.857-4.41-2.904-5.488c-7.357-3.852-11.711-11.365-11.711-19.623   c0-12.217,10.051-22.162,22.268-22.162c10.576,0,19.516,7.447,21.699,17.393c0.336,1.531,0.544,3.129,0.544,4.77   C69.795,194.449,69.35,197.014,68.471,199.398z M327.627,238.575c-1.98,18.835-17.91,33.089-37.238,33.089h-82.574   c-19.35,0-35.258-14.239-37.238-33.073c-0.154-1.289-0.221-2.381-0.223-3.713c0.002-2.871,0.336-6.214,0.943-8.214h-0.006   c0.002,0,0.004-0.042,0.006-0.052c3.826-16.652,18.697-29.043,36.518-29.043c3.51,0,6.909,0.52,10.149,1.443   c4.455-11.676,12.936-20.565,26.936-23.243v0.004c2-0.584,5.262-1.13,8.006-1.13c1.486,0,2.991,0.021,4.431,0.021h-0.01   c13.59,2,24.945,10.669,30.098,22.821c0.99-0.092,1.979-0.034,2.969-0.034c17.797,0,32.689,12.461,36.492,29.111   c0.629,2.693,0.965,5.53,0.967,8.399C327.85,236.296,327.781,237.284,327.627,238.575z M475.003,211.416   c-2.047,1.078-3.104,3.193-3.104,5.488v9.76h-16v-9.76c0-2.295-0.428-4.41-2.477-5.488c-0.516-0.271-0.605-0.563-1.102-0.902   c-0.293-0.158-0.35-0.338-0.619-0.563c-1.146-0.764-2.097-1.643-3.042-2.633c-0.27-0.248-0.465-0.518-0.713-0.787   c-0.111-0.113-0.197-0.246-0.287-0.383c-0.359-0.404-0.685-0.809-0.999-1.236c-0.045-0.068-0.084-0.16-0.152-0.225   c-0.383-0.541-0.737-1.082-1.054-1.645c-0.359-0.563-0.672-1.168-0.941-1.777c-0.293-0.605-0.563-1.236-0.787-1.867   c-0.203-0.518-0.359-1.057-0.518-1.598c-0.158-0.539-0.291-1.102-0.404-1.664c-0.045-0.27-0.113-0.539-0.135-0.811   c-0.092-0.518-0.158-1.035-0.203-1.553c-0.066-0.652-0.09-1.305-0.09-1.98c0-0.809,0.045-1.619,0.135-2.43   c0.045-0.404,0.09-0.787,0.158-1.17c0.066-0.428,0.156-0.854,0.248-1.281c0.111-0.518,0.246-1.014,0.404-1.508   c0.045-0.135,0.09-0.293,0.158-0.451c0.111-0.451,0.268-0.877,0.449-1.305c0.203-0.494,0.404-0.967,0.652-1.461   c0.113-0.248,0.246-0.52,0.383-0.766c0.203-0.381,0.404-0.742,0.629-1.104c0.182-0.316,0.359-0.607,0.586-0.9   c0.898-1.35,1.957-2.586,3.127-3.689c0.361-0.359,0.742-0.697,1.146-1.035c0.045-0.045,0.092-0.09,0.158-0.111   c0.404-0.338,0.811-0.652,1.238-0.922c0.967-0.699,2.002-1.307,3.082-1.824c0.27-0.135,0.563-0.271,0.855-0.383   c0.404-0.201,0.809-0.359,1.215-0.494c0.586-0.225,1.193-0.404,1.799-0.563c0.586-0.158,1.193-0.293,1.801-0.404   c0.045-0.023,0.068-0.023,0.113-0.023c0.607-0.113,1.236-0.203,1.867-0.246c0.652-0.068,1.305-0.092,1.957-0.092   c12.219,0,22.276,9.945,22.276,22.162C486.815,200.051,482.36,207.564,475.003,211.416z"
+                                            />
+
+                                            <circle
+                                                cx="464.309"
+                                                cy="193.209"
+                                                r="10.205"
+                                            />
+
+                                            <circle
+                                                cx="47.443"
+                                                cy="193.209"
+                                                r="10.205"
+                                            />
+
+                                            <path
+                                                d="M60.42,246.664H34.209c-3.418,0-6.188,3.584-6.188,7s2.77,7,6.188,7H60.42c3.418,0,6.188-3.584,6.188-7   S63.838,246.664,60.42,246.664z"
+                                            />
+
+                                            <path
+                                                d="M477.416,246.664h-26.213c-3.416,0-6.188,3.584-6.188,7s2.771,7,6.188,7h26.213c3.416,0,6.188-3.584,6.188-7   S480.832,246.664,477.416,246.664z"
+                                            />
+
+                                            <path
+                                                d="M269.283,219.664h-15.908l9.658-25.214c0.205-0.543,0.133-1.849-0.195-2.328c-0.33-0.475-0.871-1.458-1.451-1.458h-15.59   c-0.764,0-1.436,1.198-1.674,1.923l-13.145,40.35c-0.176,0.531-0.084,1.334,0.248,1.79c0.33,0.457,0.863,0.938,1.426,0.938h15.516   l-7.934,22.413c-0.348,0.979,0.053,1.98,0.973,2.465c0.313,0.162,0.643,0.235,0.967,0.235c0.627,0,1.23-0.306,1.633-0.864   l26.906-37.403c0.387-0.541,0.439-1.269,0.137-1.86S269.947,219.664,269.283,219.664z"
+                                            />
+                                        </g>
+                                    </svg>
+                                </div>
+                                <h3 class="title">Creativity</h3>
+                                <p>
+                                    Creative scripts and apps enhance
+                                    experience, simplify life effectively.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="item">
+                                <div class="icon">
+                                    <?xml version="1.0" encoding="utf-8"?>
+                                    <svg
+                                        width="3.5rem"
+                                        viewBox="0 0 48 48"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <g id="Layer_2" data-name="Layer 2">
+                                            <g
+                                                id="invisible_box"
+                                                data-name="invisible box"
+                                            >
+                                                <rect
+                                                    width="48"
+                                                    height="48"
+                                                    fill="none"
+                                                />
+                                            </g>
+                                            <g
+                                                id="icons_Q2"
+                                                data-name="icons Q2"
+                                            >
+                                                <g class="fill-color">
+                                                    <path
+                                                        d="M41,6H7A2,2,0,0,0,5,8V32a2,2,0,0,0,2,2H41a2,2,0,0,0,2-2V8A2,2,0,0,0,41,6ZM31.9,21.3l-2.2.5a4.2,4.2,0,0,1-.4,1l1.2,1.9a7.7,7.7,0,0,1-1.8,1.8l-1.9-1.2-1,.4-.5,2.2H22.7l-.5-2.2-1-.4-1.9,1.2a7.7,7.7,0,0,1-1.8-1.8l1.2-1.9a4.2,4.2,0,0,1-.4-1l-2.2-.5A5.7,5.7,0,0,1,16,20a5.7,5.7,0,0,1,.1-1.3l2.2-.5a4.2,4.2,0,0,1,.4-1l-1.2-1.9a7.7,7.7,0,0,1,1.8-1.8l1.9,1.2,1-.4.5-2.2h2.6l.5,2.2,1,.4,1.9-1.2a7.7,7.7,0,0,1,1.8,1.8l-1.2,1.9a4.2,4.2,0,0,1,.4,1l2.2.5A5.7,5.7,0,0,1,32,20,5.7,5.7,0,0,1,31.9,21.3ZM24,18a2,2,0,1,0,2,2A2,2,0,0,0,24,18Z"
+                                                    />
+                                                    <path
+                                                        d="M44,38H4a2,2,0,0,0,0,4H44a2,2,0,0,0,0-4Z"
+                                                    />
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <h3 class="title">Stability</h3>
+                                <p>
+                                    Stability yields fresh results in script
+                                    development.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="item">
+                                <div class="icon">
+                                    <?xml version="1.0" encoding="utf-8"?>
+                                    <svg
+                                        width="3.5rem"
+                                        viewBox="0 0 32 32"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <g clip-path="url(#clip0_901_2601)">
+                                            <path
+                                                d="M1 10V1.995C1 1.442 1.447 1 2 1H30C30.553 1 31 1.442 31 1.995V18M21 30.998L18 29.995V25H22M22 21H18M31 30C31 30.553 30.553 31 30 31H26C25.447 31 25 30.553 25 30V22C25 21.447 25.447 21 26 21H30C30.553 21 31 21.447 31 22V30ZM15 30C15 30.553 14.553 31 14 31H2C1.447 31 1 30.553 1 30V14C1 13.447 1.447 13 2 13H14C14.553 13 15 13.447 15 14V30Z"
+                                                class="stroke-color"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                            />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_901_2601">
+                                                <rect
+                                                    width="32"
+                                                    height="32"
+                                                    fill="white"
+                                                />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </div>
+                                <h3 class="title">Responsive Design</h3>
+                                <p>
+                                    Intuitive interface offers convenience,
+                                    saves time for various tasks.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="item">
+                                <div class="icon">
+                                    <?xml version="1.0" encoding="utf-8"?>
+                                    <svg
+                                        version="1.1"
+                                        width="3.5rem"
+                                        id="Icons"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        viewBox="0 0 32 32"
+                                        xml:space="preserve"
+                                    >
+                                        <ellipse
+                                            class="st0"
+                                            cx="16"
+                                            cy="16"
+                                            rx="7"
+                                            ry="8"
+                                        />
+                                        <path
+                                            class="st0"
+                                            d="M13,8c0-1.7,1.3-3,3-3s3,1.3,3,3"
+                                        />
+                                        <polyline
+                                            class="st0"
+                                            points="16,8 16,18 12,22 "
+                                        />
+                                        <line
+                                            class="st0"
+                                            x1="16"
+                                            y1="18"
+                                            x2="20"
+                                            y2="22"
+                                        />
+                                        <path
+                                            class="st0"
+                                            d="M7,5v0.4c0,2.3,1.1,4.4,3,5.6l0,0"
+                                        />
+                                        <path
+                                            class="st0"
+                                            d="M25,5v0.4c0,2.3-1.1,4.4-3,5.6l0,0"
+                                        />
+                                        <path
+                                            class="st0"
+                                            d="M7,27v-0.4c0-2.3,1.1-4.4,3-5.6l0,0"
+                                        />
+                                        <path
+                                            class="st0"
+                                            d="M25,27v-0.4c0-2.3-1.1-4.4-3-5.6l0,0"
+                                        />
+                                        <line
+                                            class="st0"
+                                            x1="3"
+                                            y1="16"
+                                            x2="9"
+                                            y2="16"
+                                        />
+                                        <line
+                                            class="st0"
+                                            x1="23"
+                                            y1="16"
+                                            x2="29"
+                                            y2="16"
+                                        />
+                                    </svg>
+                                </div>
+                                <h3 class="title">Bug Fixing</h3>
+                                <p>
+                                    Rapid bug fixes and client updates within a
+                                    day's time.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="portfolio" class="portfolio">
+                <div class="container">
+                    <h3 class="section-title">Portfolio</h3>
+                    <div class="row">
+                        <div class="col-12">
+                            <nav class="col-6 mx-auto">
+                                <div
+                                    class="nav nav-tabs nav-fill"
+                                    id="nav-tab"
+                                    role="tablist"
+                                >
+                                    <a
+                                        class="nav-item nav-link active"
+                                        id="nav-all-tab"
+                                        data-toggle="tab"
+                                        href="#nav-all"
+                                        role="tab"
+                                        aria-controls="nav-all"
+                                        aria-selected="true"
+                                        >All</a
+                                    >
+                                    <a
+                                        class="nav-item nav-link"
+                                        id="nav-frontend-tab"
+                                        data-toggle="tab"
+                                        href="#nav-frontend"
+                                        role="tab"
+                                        aria-controls="nav-frontend"
+                                        aria-selected="false"
+                                        >Front-end</a
+                                    >
+                                    <a
+                                        class="nav-item nav-link"
+                                        id="nav-backend-tab"
+                                        data-toggle="tab"
+                                        href="#nav-backend"
+                                        role="tab"
+                                        aria-controls="nav-backend"
+                                        aria-selected="false"
+                                        >Back-end</a
+                                    >
+                                    <a
+                                        class="nav-item nav-link"
+                                        id="nav-fullstack-tab"
+                                        data-toggle="tab"
+                                        href="#nav-fullstack"
+                                        role="tab"
+                                        aria-controls="nav-fullstack"
+                                        aria-selected="false"
+                                        >Full-stack</a
+                                    >
+                                </div>
+                            </nav>
+                            <div
+                                class="tab-content py-3 px-3 px-sm-0"
+                                id="nav-tabContent"
+                            >
+                                <div
+                                    class="tab-pane fade show active"
+                                    id="nav-all"
+                                    role="tabpanel"
+                                    aria-labelledby="nav-all-tab"
+                                >
+                                    <div class="row">
+                                        <div class="col-12 col-md-6">
+                                            <div class="portfolio-item">
+                                                <img
+                                                    src="./assets/images/jamuna.png"
+                                                    alt=""
+                                                    srcset=""
+                                                />
+                                                <div class="inner-content">
+                                                    <h3 class="brand-name">
+                                                        Jamuna Group
+                                                    </h3>
+                                                    <div class="tech-use">
+                                                        Built with Laravel &
+                                                        Vue.js
+                                                    </div>
+                                                    <a
+                                                        href="https://jamunagroup.com.bd"
+                                                        target="_blank"
+                                                        class="custom-btn"
+                                                    >
+                                                        <i
+                                                            class="fa fa-link"
+                                                            aria-hidden="true"
+                                                        ></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="portfolio-item">
+                                                <img
+                                                    src="./assets/images/codebumble.png"
+                                                    alt=""
+                                                    srcset=""
+                                                />
+                                                <div class="inner-content">
+                                                    <h3 class="brand-name">
+                                                        Codebumble Inc.
+                                                    </h3>
+                                                    <div class="tech-use">
+                                                        Built with Laravel
+                                                    </div>
+                                                    <a
+                                                        href="https://codebumble.net"
+                                                        target="_blank"
+                                                        class="custom-btn"
+                                                    >
+                                                        <i
+                                                            class="fa fa-link"
+                                                            aria-hidden="true"
+                                                        ></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="tab-pane fade"
+                                    id="nav-frontend"
+                                    role="tabpanel"
+                                    aria-labelledby="nav-frontend-tab"
+                                >
+                                    front-end
+                                </div>
+                                <div
+                                    class="tab-pane fade"
+                                    id="nav-backend"
+                                    role="tabpanel"
+                                    aria-labelledby="nav-backend-tab"
+                                >
+                                    backend
+                                </div>
+                                <div
+                                    class="tab-pane fade"
+                                    id="nav-fullstack"
+                                    role="tabpanel"
+                                    aria-labelledby="nav-fullstack-tab"
+                                >
+                                    full-stack
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer class="o-hidden">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="copyright">
+                            <p>
+                                copyright 2023 | all right reserved by
+                                <span class="name">Anik Hossain.</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 offset-md-2 text-right">
+                        <div class="social-links">
+                            <ul>
+                                <li>
+                                    <a
+                                        href="mailto:anik.wdev@gmail.com"
+                                        target="_blank"
+                                        ><i
+                                            class="fa fa-at"
+                                            aria-hidden="true"
+                                        ></i
+                                    ></a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://www.github.com/anik-hossain"
+                                        target="_blank"
+                                        ><i
+                                            class="fa fa-github"
+                                            aria-hidden="true"
+                                        ></i
+                                    ></a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://www.twitter.com/aritro_anik"
+                                        target="_blank"
+                                        ><i
+                                            class="fa fa-twitter"
+                                            aria-hidden="true"
+                                        ></i
+                                    ></a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://www.linkedin.com/in/anik-hossain-dev"
+                                        target="_blank"
+                                        ><i
+                                            class="fa fa-linkedin"
+                                            aria-hidden="true"
+                                        ></i
+                                    ></a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://www.facebook.com/anik.aritro"
+                                        target="_blank"
+                                        ><i
+                                            class="fa fa-facebook"
+                                            aria-hidden="true"
+                                        ></i
+                                    ></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var links = document.querySelectorAll('.main-nav a');
+            var checkbox = document.getElementById('menu-toggle');
+            links.forEach(function (link) {
+                link.addEventListener('click', function (event) {
+                    links.forEach(function (link) {
+                        link.classList.remove('active');
+                    });
+                    checkbox.checked = false;
+                    this.classList.add('active');
+                });
+            });
+        });
+    </script>
+</html>
